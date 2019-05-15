@@ -15,3 +15,8 @@ R.Version()
 # git config remote.origin.url git@github.com:GDelaCruzA/yourprojectname.git
 # ya no lo hace
 # 
+# la operación pide confirmar que se quiere agregar el host al uso de la ssh
+# luego hay que confirmar con la passfrase que originó la ssh y luego
+# se supone que ya preguntará nada de aquí en adelante.
+# Veremos...
+# 
