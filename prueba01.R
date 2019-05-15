@@ -53,4 +53,25 @@ R.Version()
 # No contesta nada a menos que haya algun error...
 # y luego volvemos a probar con este commit
 # 
+# No fununcia tampoco, siempre pide la passphrase con la que se generó la ssh key
 # 
+# Procedemos con la opción del Cap 10 de HappyGitWithR en la terminal
+# 
+#       git config --show-origin --get credential.helper
+# 
+# verificamos el repo local
+# 
+#       git remote -v
+# 
+# verificamos que estamos el master branch
+# 
+#       git branch -vv
+#       
+# Habilitamos el credential helper de Windows en la terminal
+# 
+#       git config --global credential.helper manager
+# 
+# En la terminal ejecutar la actualización del script a mano:
+# 
+#       git add "prueba01.R"
+#       git commit -m "A commit from my local computer"
