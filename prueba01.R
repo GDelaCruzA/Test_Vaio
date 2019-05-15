@@ -20,3 +20,32 @@ R.Version()
 # se supone que ya preguntará nada de aquí en adelante.
 # Veremos...
 # 
+# Después de la siguiente configuración, que se tiene que hacer desde la 
+# consola 'shell' (en la pestaña de Git, el engrane de configuración > Shell)
+# para activar el ssh agent
+# 
+#       eval $(ssh-agent -s)
+# 
+# contesta con un número de identificación; luego hay que proporcionarle 
+# la clave pública de nuestra 'securty shell' ssh
+# 
+#       ssh-add ~/.ssh/id_rsa
+# 
+# contesta preguntando la passphrase que se uso para generar la ssh;
+# después de proporcionarla, contesta que se agregó la identidad.
+# 
+# Para verificar si todo está correcto, se prueba con
+# 
+#       ssh -T git@github.com
+#
+#que contesta con 
+#
+# Hi your_username! You've successfully authenticated, but GitHub does 
+#   not provide shell access.
+#   
+# finalmente, parece cuestión de Windows, cada proyecto debe de habilitarse
+# mediante la siguiente instrucción:
+# 
+# git config remote.origin.url git@github.com:your_username/your_project.git
+# 
+# 
