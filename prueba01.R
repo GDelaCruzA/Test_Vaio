@@ -75,3 +75,19 @@ R.Version()
 # 
 #       git add "prueba01.R"
 #       git commit -m "A commit from my local computer"
+#       
+# Y luego 
+# 
+#       git push -u origin master
+#       
+# pide la passphrase de la ssh key y <Enter>. Luego repetir el push y comprobar
+# que todo está actualizado y que ya no pida contraseña...
+# 
+#       git push
+# 
+# No funcionó porque el credential helper debe ser wincred no manager; entonces
+# 
+#       git config --global credential.helper wincred
+# 
+# Y luego repetimos todo el procedimiento a mano: add, commit y push
+# 
