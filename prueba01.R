@@ -44,8 +44,8 @@ R.Version()
 #   not provide shell access.
 #   
 # finalmente, parece cuestión de Windows, cada proyecto debe de habilitarse
-# mediante la siguiente instrucción:
+# mediante la siguiente instrucción en la Shell:
 # 
 # git config remote.origin.url git@github.com:your_username/your_project.git
 # 
-# 
+# en la Terminal 
