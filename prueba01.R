@@ -9,3 +9,9 @@
 citation()
 
 R.Version()
+
+# cada vez que se hace un push, se tiene que proporcional el id y psswrd de
+# Github; se supone que con 
+# git config remote.origin.url git@github.com:GDelaCruzA/yourprojectname.git
+# ya no lo hace
+# 
