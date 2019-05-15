@@ -48,4 +48,9 @@ R.Version()
 # 
 # git config remote.origin.url git@github.com:your_username/your_project.git
 # 
-# en la Terminal 
+# en la Terminal no fununcia, por lo que lo hacemos en la Shell...
+# 
+# No contesta nada a menos que haya algun error...
+# y luego volvemos a probar con este commit
+# 
+# 
